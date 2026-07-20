@@ -1,5 +1,5 @@
 <p align="center">
-  <a href="https://github.com/mengxinyuan638/envSensor">
+  <a href="https://gitcode.com/gcw_rVSV2mp6/envSensor">
     <img src="./img/logo.png" alt="Logo" width="80" height="80" style="border: 1px solid #DCDCDC; border-radius: 20px;">
   </a>
 
@@ -8,9 +8,9 @@
    一款基于 HarmonyOS 的蓝牙环境监测系统上位机应用
     <br />
     <br />
-    <a href="https://github.com/mengxinyuan638/envSensor/issues">报告 Bug</a>
+    <a href="https://gitcode.com/gcw_rVSV2mp6/envSensor/issues">报告 Bug</a>
     ·
-    <a href="https://github.com/mengxinyuan638/envSensor/issues">提出新特性</a>
+    <a href="https://gitcode.com/gcw_rVSV2mp6/envSensor/issues">提出新特性</a>
   </p>
 ## 项目简介（该文档由AI生成）
 
@@ -115,7 +115,7 @@ envSensorPro/
 1. 克隆项目
 
 ```bash
-git clone https://github.com/mengxinyuan638/envSensor.git
+git clone https://gitcode.com/gcw_rVSV2mp6/envSensor.git
 ```
 
 2. 使用 DevEco Studio 打开项目根目录
@@ -153,11 +153,11 @@ hvigorw assembleHap
 4. 推送到分支 (`git push origin feature/AmazingFeature`)
 5. 提交 Pull Request
 
-也欢迎直接提交 [Issue](https://github.com/mengxinyuan638/envSensor/issues) 反馈问题或建议。
+也欢迎直接提交 [Issue](https://gitcode.com/gcw_rVSV2mp6/envSensor/issues) 反馈问题或建议。
 
 ## 版本控制
 
-该项目使用 Git 进行版本管理。您可以在 [repository](https://github.com/mengxinyuan638/envSensor) 查看当前可用版本。
+该项目使用 Git 进行版本管理。您可以在 [repository](https://gitcode.com/gcw_rVSV2mp6/envSensor) 查看当前可用版本。
 
 ## 作者
 
