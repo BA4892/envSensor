@@ -1,0 +1,32 @@
+{
+  "string": [
+    {
+      "name": "module_desc",
+      "value": "module description"
+    },
+    {
+      "name": "EntryAbility_desc",
+      "value": "环境监测系统上位机"
+    },
+    {
+      "name": "EntryAbility_label",
+      "value": "环境监测系统"
+    },
+    {
+      "name": "Gesture_reason",
+      "value": "用于检测握持手势，自动适配单手操作时的UI布局"
+    },
+    {
+      "name": "BlueTooth_reason",
+      "value": "用于发现、连接蓝牙环境传感器设备并传输数据"
+    },
+    {
+      "name": "Internet_reason",
+      "value": "用于应用联网功能"
+    },
+    {
+      "name": "Background_reason",
+      "value": "用于在后台保持蓝牙连接，确保环境数据持续监测"
+    }
+  ]
+}

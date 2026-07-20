@@ -1,0 +1,10 @@
+{
+  "name": "entry",
+  "version": "1.0.0",
+  "description": "基于 HarmonyOS 的蓝牙环境监测系统上位机",
+  "main": "",
+  "author": "萌新源",
+  "license": "MIT",
+  "dependencies": {}
+}
+

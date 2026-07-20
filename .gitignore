@@ -1,0 +1,32 @@
+# Build artifacts
+/node_modules
+/oh_modules
+**/build
+/.hvigor
+.cxx
+/.clangd
+/.clang-format
+/.clang-tidy
+**/.test
+/.appanalyzer
+/.cache
+
+# IDE
+/.idea
+*.iml
+/local.properties
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Signing (never commit)
+*.cer
+*.p12
+*.p7b
+*.jks
+*.keystore
+signing-backup.json
+
+# Logs
+*.log

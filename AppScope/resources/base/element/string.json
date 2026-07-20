@@ -1,0 +1,24 @@
+{
+  "string": [
+    {
+      "name": "app_name",
+      "value": "Pet"
+    },
+    {
+      "name": "BlueTooth_reason",
+      "value": "用于查找附近蓝牙设备"
+    },
+    {
+      "name": "Internet_reason",
+      "value": "用于跳转系统浏览器"
+    },
+    {
+      "name": "Background_reason",
+      "value": "后台维持蓝牙设备连接"
+    },
+    {
+      "name": "Gesture_reason",
+      "value": "用于智感握姿"
+    }
+  ]
+}

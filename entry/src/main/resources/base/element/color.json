@@ -1,0 +1,40 @@
+{
+  "color": [
+    {
+      "name": "start_window_background",
+      "value": "#FFFFFF"
+    },
+    {
+      "name": "text_color",
+      "value": "#FFFFFF"
+    },
+    {
+      "name": "head_color",
+      "value": "#00897B"
+    },
+    {
+      "name": "bottom_color",
+      "value": "#FFFFFF"
+    },
+    {
+      "name": "background_color",
+      "value": "#F2F2F2"
+    },
+    {
+      "name": "button_color",
+      "value": "#00897B"
+    },
+    {
+      "name": "panel_color",
+      "value": "#FFFFFF"
+    },
+    {
+      "name": "cancel_color",
+      "value": "#000000"
+    },
+    {
+      "name": "glass_color",
+      "value": "#80F3F3F3"
+    }
+  ]
+}
