@@ -104,7 +104,6 @@ envSensorPro/
 ├── oh-package.json5                          # Dependency configuration
 └── README.md                                 # Project documentation
 
-
 ## Requirements
 
 - **DevEco Studio** (supports HarmonyOS SDK 5.1.0(18) and above)
