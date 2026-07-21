@@ -69,6 +69,7 @@ The application communicates with sensor devices using a custom binary frame pro
 
 ## Project Structure
 
+```text
 envSensorPro/
 ├── AppScope/                                 # Application-level configuration and resources
 │   └── app.json5                             # Application manifest (bundleName, version, etc.)
@@ -103,6 +104,8 @@ envSensorPro/
 ├── build-profile.json5                       # Build configuration
 ├── oh-package.json5                          # Dependency configuration
 └── README.md                                 # Project documentation
+```
+
 
 
 ## Requirements
