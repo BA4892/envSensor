@@ -3,11 +3,6 @@
     <img src="./img/logo.png" alt="Logo" width="80" height="80" style="border: 1px solid #DCDCDC; border-radius: 20px;">
   </a>
 
-<p align="center">
-  <a href="https://gitcode.com/gcw_rVSV2mp6/envSensor">
-    <img src="./img/logo.png" alt="Logo" width="80" height="80" style="border: 1px solid #DCDCDC; border-radius: 20px;">
-  </a>
-
   <h3 align="center">Environmental Monitoring System Host Application</h3>
   <p align="center">
    A HarmonyOS-based host application for Bluetooth environmental monitoring systems
@@ -75,38 +70,39 @@ The application communicates with sensor devices using a custom binary frame pro
 ## Project Structure
 
 envSensorPro/
-├── AppScope/ # Application-level configuration and resources
-│ └── app.json5 # Application manifest (bundleName, version, etc.)
-├── entry/ # Main module
-│ └── src/main/
-│ ├── ets/
-│ │ ├── entryability/ # Application entry Ability
-│ │ │ └── EntryAbility.ets
-│ │ ├── entrybackupability/ # Backup and restore extension
-│ │ ├── models/ # Data models
-│ │ │ ├── globalBlueTooth.ets # Bluetooth device list state
-│ │ │ ├── globalType.ets # Global application state
-│ │ │ ├── buttonData.ets # Button configuration
-│ │ │ ├── button.ets # Button data interface
-│ │ │ ├── chatData.ets # Data records
-│ │ │ └── chat.ets # Data record interface
-│ │ ├── pages/ # Pages
-│ │ │ ├── Index.ets # Root page / Navigation container
-│ │ │ ├── Layout.ets # Main page Tab layout
-│ │ │ ├── Connection.ets # Bluetooth scanning and connection
-│ │ │ └── ChatData.ets # Sensor data panel
-│ │ └── utils/ # Utility classes
-│ │ ├── BlueToothManager.ets # Bluetooth core management
-│ │ ├── SppClientManager.ets # SPP/RFCOMM client
-│ │ ├── GattClientManager.ets # BLE/GATT client
-│ │ ├── NoticeManager.ets # Notification permission management
-│ │ ├── ColorModeManager.ets # Dark/Light mode
-│ │ └── DetectGesture.ets # Grip gesture detection
-│ ├── module.json5 # Module manifest
-│ └── resources/ # Resource files
-├── build-profile.json5 # Build configuration
-├── oh-package.json5 # Dependency configuration
-└── README.md
+├── AppScope/                                 # Application-level configuration and resources
+│   └── app.json5                             # Application manifest (bundleName, version, etc.)
+├── entry/                                    # Main module
+│   └── src/
+│       └── main/
+│           ├── ets/
+│           │   ├── entryability/             # Application entry Ability
+│           │   │   └── EntryAbility.ets
+│           │   ├── entrybackupability/       # Backup and restore extension
+│           │   ├── models/                   # Data models
+│           │   │   ├── globalBlueTooth.ets   # Bluetooth device list state
+│           │   │   ├── globalType.ets        # Global application state
+│           │   │   ├── buttonData.ets        # Button configuration
+│           │   │   ├── button.ets            # Button data interface
+│           │   │   ├── chatData.ets          # Data records
+│           │   │   └── chat.ets              # Data record interface
+│           │   ├── pages/                    # Pages
+│           │   │   ├── Index.ets             # Root page / Navigation container
+│           │   │   ├── Layout.ets            # Main page Tab layout
+│           │   │   ├── Connection.ets        # Bluetooth scanning and connection
+│           │   │   └── ChatData.ets          # Sensor data panel
+│           │   └── utils/                    # Utility classes
+│           │       ├── BlueToothManager.ets  # Bluetooth core management
+│           │       ├── SppClientManager.ets  # SPP/RFCOMM client
+│           │       ├── GattClientManager.ets # BLE/GATT client
+│           │       ├── NoticeManager.ets     # Notification permission management
+│           │       ├── ColorModeManager.ets  # Dark/Light mode
+│           │       └── DetectGesture.ets     # Grip gesture detection
+│           ├── module.json5                  # Module manifest
+│           └── resources/                    # Resource files
+├── build-profile.json5                       # Build configuration
+├── oh-package.json5                          # Dependency configuration
+└── README.md                                 # Project documentation
 
 
 ## Requirements
